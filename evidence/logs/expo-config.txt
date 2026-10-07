@@ -1,0 +1,17 @@
+﻿
+{
+  plugins: [
+    'expo-font'
+  ],
+  name: 'itmsd1-lab',
+  slug: 'itmsd1-lab',
+  version: '1.0.0',
+  description: undefined,
+  sdkVersion: '57.0.0',
+  platforms: [
+    'ios',
+    'android',
+    'web'
+  ]
+}
+

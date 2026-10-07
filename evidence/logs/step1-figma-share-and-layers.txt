@@ -1,0 +1,24 @@
+﻿STEP 1 - FIGMA SHARE + LAYER VERIFICATION
+==========================================
+File: https://www.figma.com/design/rARri6cM4lhBv9NtbQKobs/ITMSD1_Lab_Mamparo?node-id=0-1
+
+A) Share link (cookie-free / incognito-equivalent checks)
+   oEmbed  GET https://www.figma.com/api/oembed?url=... -> HTTP 200
+     title: ITMSD1_Lab_Mamparo | key: rARri6cM4lhBv9NtbQKobs
+     embed: https://embed.figma.com/design/rARri6cM4lhBv9NtbQKobs/ITMSD1_Lab_Mamparo?embed-host=oembed
+   Public CDN thumbnail (no cookies) -> HTTP 200 image/webp 9390 bytes
+     saved as evidence/step1-public-thumbnail.png
+   => 'Anyone with the link can view' is ON.
+
+B) Clean layer names (read from the Figma layers panel)
+   Pages:
+     - Android (Material 3)
+     - iOS (Apple HIG)
+     - Color System & Design Rationale
+   Frames on Android (Material 3):
+     - Dashboard   (node 43-4269)
+     - Inventory   (node 42-3)
+     - POS         (node 42-5)
+     - Payment     (node 42-7)
+     - Reports     (node 42-9)
+   (also present: 'Frame 1' stray frame, 'ITSMD1_Lab_Mamparo' text label)

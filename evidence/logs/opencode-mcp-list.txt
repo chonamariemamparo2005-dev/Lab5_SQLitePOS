@@ -1,0 +1,9 @@
+﻿Γöî  MCP Servers
+
+Γöé
+ΓùÅ  Γ£ô figma connected
+Γöé      npx -y figma-developer-mcp --figma-api-key=figd_***REDACTED*** --stdio
+Γöé
+Γöö  1 server(s)
+
+
